@@ -1,0 +1,36 @@
+{{ form_start(formRegistration, { 'attr': {'novalidate': 'novalidate', 'class': 'formRegister'} }) }}
+
+    <div id="step-1" class="formRegister__step formRegister__step--active">
+        {{ form_widget(formRegistration.email, { 'attr': {'class': 'input'} }) }}
+        {{ form_label(formRegistration.email, null, { 'label_attr': {'class': 'label'} }) }}
+    </div>
+
+    <div id="step-2" class="formRegister__step">
+        {{ form_widget(formRegistration.plainPassword, { 'attr': {'class': 'input'} }) }}
+        {{ form_label(formRegistration.plainPassword, null, { 'label_attr': {'class': 'label'} }) }}
+    </div>
+
+    <div id="step-3" class="formRegister__step">
+        {{ form_widget(formRegistration.name, { 'attr': {'class': 'input'} }) }}
+        {{ form_label(formRegistration.name, null, { 'label_attr': {'class': 'label'} }) }}
+    </div>
+
+    <div id="step-4" class="formRegister__step">
+        {{ form_widget(formRegistration.country, { 'attr': {'class': 'input'} }) }}
+        {{ form_label(formRegistration.country, null, { 'label_attr': {'class': 'label'} }) }}
+    </div>
+
+    <div class="formRegister__controls">
+        <a href="#" class="step-control step-control--prev" style="display:none">Previous</a>
+        <button class="step-control step-control--next">Next</button>
+    </div>
+
+{{ form_end(formRegistration, {renderRest: false}) }}
+
+<div class="line-controls-step">
+    <span class="line-controls-step__text">Step <span></span></span>
+    <span class="line-controls-step__link line-controls-step__link--active">1</span>
+    <span class="line-controls-step__link">2</span>
+    <span class="line-controls-step__link">3</span>
+    <span class="line-controls-step__link">4</span>
+</div>

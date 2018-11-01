@@ -1,0 +1,361 @@
+{
+    "vars": {
+        "value": null,
+        "attr": [],
+        "form": {
+            "name": [],
+            "email": [],
+            "lookingFor": [],
+            "country": [],
+            "plainPassword": [],
+            "acceptTerms": [],
+            "_token": []
+        },
+        "id": "formRegistration",
+        "name": "formRegistration",
+        "full_name": "formRegistration",
+        "disabled": false,
+        "label": null,
+        "label_format": null,
+        "multipart": false,
+        "block_prefixes": [
+            "form",
+            "_formRegistration"
+        ],
+        "unique_block_prefix": "_formRegistration",
+        "translation_domain": null,
+        "cache_key": "_formRegistration_form",
+        "errors": [],
+        "valid": true,
+        "data": null,
+        "required": true,
+        "size": null,
+        "label_attr": [],
+        "compound": true,
+        "method": "POST",
+        "action": "account_register",
+        "submitted": false
+    },
+    "children": {
+        "name": {
+            "vars": {
+                "value": "",
+                "attr": {
+                    "data-constraints": "W3sibWVzc2FnZSI6Ik5hbWUgc2hvdWxkIGNvbnRhaW4gYXQgbGVhc3QgMyBsZXR0ZXJzIGxvbmciLCJwYXR0ZXJuIjoiXC9eLnszLH0kXC8iLCJodG1sUGF0dGVybiI6bnVsbCwibWF0Y2giOnRydWUsInBheWxvYWQiOm51bGx9LHsibWVzc2FnZSI6Ik5hbWUgY29udGFpbnMgbm90IGFsbG93ZWQgY2hhcmFjdGVycyIsInBhdHRlcm4iOiJcL14oW1xccExdKyhbXFxzLV1bXFxwTF0rKSopezMsfSRcL3UiLCJodG1sUGF0dGVybiI6bnVsbCwibWF0Y2giOnRydWUsInBheWxvYWQiOm51bGx9XQ=="
+                },
+                "form": [],
+                "id": "formRegistration_name",
+                "name": "name",
+                "full_name": "formRegistration[name]",
+                "disabled": false,
+                "label": "Name",
+                "label_format": null,
+                "multipart": false,
+                "block_prefixes": [
+                    "form",
+                    "text",
+                    "_formRegistration_name"
+                ],
+                "unique_block_prefix": "_formRegistration_name",
+                "translation_domain": null,
+                "cache_key": "_formRegistration_name_text",
+                "errors": [],
+                "valid": true,
+                "data": null,
+                "required": true,
+                "size": null,
+                "label_attr": [],
+                "compound": false,
+                "method": "POST",
+                "action": "",
+                "submitted": false
+            }
+        },
+        "email": {
+            "vars": {
+                "value": "",
+                "attr": {
+                    "data-constraints": "W3sibWVzc2FnZSI6IkVtYWlsIHNob3VsZCBub3QgYmUgZW1wdHkiLCJwYXR0ZXJuIjoiXC9eLiskXC8iLCJodG1sUGF0dGVybiI6bnVsbCwibWF0Y2giOnRydWUsInBheWxvYWQiOm51bGx9LHsibWVzc2FnZSI6IkVtYWlsIGlzIGludmFsaWQiLCJwYXR0ZXJuIjoiXC9eW2EtejAtOV0rKFtcXC5fLV17MX1bYS16MC05XSspKkBbYS16MC05XSsoW1xcLi1dezF9W2EtejAtOV0rKSooXFwuW2Etel17Miw2fSkkXC8iLCJodG1sUGF0dGVybiI6bnVsbCwibWF0Y2giOnRydWUsInBheWxvYWQiOm51bGx9XQ=="
+                },
+                "form": [],
+                "id": "formRegistration_email",
+                "name": "email",
+                "full_name": "formRegistration[email]",
+                "disabled": false,
+                "label": "Email",
+                "label_format": null,
+                "multipart": false,
+                "block_prefixes": [
+                    "form",
+                    "text",
+                    "email",
+                    "_formRegistration_email"
+                ],
+                "unique_block_prefix": "_formRegistration_email",
+                "translation_domain": null,
+                "cache_key": "_formRegistration_email_email",
+                "errors": [],
+                "valid": true,
+                "data": null,
+                "required": true,
+                "size": null,
+                "label_attr": [],
+                "compound": false,
+                "method": "POST",
+                "action": "",
+                "submitted": false
+            }
+        },
+        "lookingFor": {
+            "vars": {
+                "value": "",
+                "attr": {
+                    "data-constraints": "W3sibWVzc2FnZSI6IlBsZWFzZSBzZWxlY3QgYW4gb3B0aW9uIGZyb20gdGhlIGxpc3QiLCJwYXR0ZXJuIjoiXC9eLiskXC8iLCJodG1sUGF0dGVybiI6bnVsbCwibWF0Y2giOnRydWUsInBheWxvYWQiOm51bGx9XQ=="
+                },
+                "form": [],
+                "id": "formRegistration_lookingFor",
+                "name": "lookingFor",
+                "full_name": "formRegistration[lookingFor]",
+                "disabled": false,
+                "label": "I'm",
+                "label_format": null,
+                "multipart": false,
+                "block_prefixes": [
+                    "form",
+                    "choice",
+                    "_formRegistration_lookingFor"
+                ],
+                "unique_block_prefix": "_formRegistration_lookingFor",
+                "translation_domain": null,
+                "cache_key": "_formRegistration_lookingFor_choice",
+                "errors": [],
+                "valid": true,
+                "data": null,
+                "required": true,
+                "size": null,
+                "label_attr": [],
+                "compound": false,
+                "method": "POST",
+                "action": "",
+                "submitted": false,
+                "multiple": false,
+                "expanded": false,
+                "preferred_choices": [],
+                "choices": [
+                    {
+                        "label": "I am Man seeking a Woman",
+                        "value": "12",
+                        "data": 12,
+                        "attr": []
+                    },
+                    {
+                        "label": "I am Woman seeking a Man",
+                        "value": "21",
+                        "data": 21,
+                        "attr": []
+                    },
+                    {
+                        "label": "I am Man seeking a Man",
+                        "value": "11",
+                        "data": 11,
+                        "attr": []
+                    },
+                    {
+                        "label": "I am Woman seeking a Woman",
+                        "value": "22",
+                        "data": 22,
+                        "attr": []
+                    }
+                ],
+                "separator": "-------------------",
+                "placeholder": null,
+                "choice_translation_domain": null,
+                "is_selected": [],
+                "placeholder_in_choices": false
+            }
+        },
+        "country": {
+            "vars": {
+                "value": "",
+                "attr": {
+                    "data-constraints": "W3sibWVzc2FnZSI6IlBsZWFzZSBzZWxlY3QgYSBjb3VudHJ5IGZyb20gdGhlIGxpc3QiLCJwYXR0ZXJuIjoiXC9eLiskXC8iLCJodG1sUGF0dGVybiI6bnVsbCwibWF0Y2giOnRydWUsInBheWxvYWQiOm51bGx9XQ=="
+                },
+                "form": [],
+                "id": "formRegistration_country",
+                "name": "country",
+                "full_name": "formRegistration[country]",
+                "disabled": false,
+                "label": "Country",
+                "label_format": null,
+                "multipart": false,
+                "block_prefixes": [
+                    "form",
+                    "choice",
+                    "_formRegistration_country"
+                ],
+                "unique_block_prefix": "_formRegistration_country",
+                "translation_domain": null,
+                "cache_key": "_formRegistration_country_choice",
+                "errors": [],
+                "valid": true,
+                "data": null,
+                "required": true,
+                "size": null,
+                "label_attr": [],
+                "compound": false,
+                "method": "POST",
+                "action": "",
+                "submitted": false,
+                "multiple": false,
+                "expanded": false,
+                "preferred_choices": [],
+                "choices": [
+                    {
+                        "label": "Country",
+                        "value": "",
+                        "data": "",
+                        "attr": []
+                    },
+                    {
+                        "label": "Canada",
+                        "value": "35",
+                        "data": 35,
+                        "attr": []
+                    },
+                    {
+                        "label": "Ukraine",
+                        "value": "208",
+                        "data": 208,
+                        "attr": []
+                    },
+                    {
+                        "label": "United states",
+                        "value": "210",
+                        "data": 210,
+                        "attr": []
+                    },
+                    {
+                        "label": "Russia",
+                        "value": "70",
+                        "data": 70,
+                        "attr": []
+                    },
+                    {
+                        "label": "England",
+                        "value": "63",
+                        "data": 63,
+                        "attr": []
+                    }
+                ],
+                "separator": "-------------------",
+                "placeholder": null,
+                "choice_translation_domain": null,
+                "is_selected": [],
+                "placeholder_in_choices": true
+            }
+        },
+        "plainPassword": {
+            "vars": {
+                "value": "",
+                "attr": {
+                    "data-constraints": "W3sibWVzc2FnZSI6IlBhc3N3b3JkIHNob3VsZCBiZSBhdCBsZWFzdCA2IGNoYXJhY3RlcnMgbG9uZyIsInBhdHRlcm4iOiJcL14uezYsfSRcLyIsImh0bWxQYXR0ZXJuIjpudWxsLCJtYXRjaCI6dHJ1ZSwicGF5bG9hZCI6bnVsbH0seyJtZXNzYWdlIjoiUGFzc3dvcmQgc2hvdWxkIG5vdCBjb250YWluIGEgXCJzcGFjZVwiIGNoYXJhY3RlciIsInBhdHRlcm4iOiJcL15bXlxcc117Nix9JFwvIiwiaHRtbFBhdHRlcm4iOm51bGwsIm1hdGNoIjp0cnVlLCJwYXlsb2FkIjpudWxsfV0="
+                },
+                "form": [],
+                "id": "formRegistration_plainPassword",
+                "name": "plainPassword",
+                "full_name": "formRegistration[plainPassword]",
+                "disabled": false,
+                "label": "Password",
+                "label_format": null,
+                "multipart": false,
+                "block_prefixes": [
+                    "form",
+                    "text",
+                    "password",
+                    "_formRegistration_plainPassword"
+                ],
+                "unique_block_prefix": "_formRegistration_plainPassword",
+                "translation_domain": null,
+                "cache_key": "_formRegistration_plainPassword_password",
+                "errors": [],
+                "valid": true,
+                "data": null,
+                "required": true,
+                "size": null,
+                "label_attr": [],
+                "compound": false,
+                "method": "POST",
+                "action": "",
+                "submitted": false
+            }
+        },
+        "acceptTerms": {
+            "vars": {
+                "value": "1",
+                "attr": {
+                    "value": 1,
+                    "data-constraints": "eyJyZXF1aXJlZCI6eyJtZXNzYWdlIjoiWW91IHNob3VsZCBhY2NlcHQgb3VyIHRlcm1zIGFuZCBwcml2YWN5IHBvbGljeSIsInZhbHVlIjoxLCJwcm9wZXJ0eVBhdGgiOm51bGwsInBheWxvYWQiOm51bGx9fQ=="
+                },
+                "form": [],
+                "id": "formRegistration_acceptTerms",
+                "name": "acceptTerms",
+                "full_name": "formRegistration[acceptTerms]",
+                "disabled": false,
+                "label": null,
+                "label_format": null,
+                "multipart": false,
+                "block_prefixes": [
+                    "form",
+                    "checkbox",
+                    "_formRegistration_acceptTerms"
+                ],
+                "unique_block_prefix": "_formRegistration_acceptTerms",
+                "translation_domain": null,
+                "cache_key": "_formRegistration_acceptTerms_checkbox",
+                "errors": [],
+                "valid": true,
+                "data": false,
+                "required": true,
+                "size": null,
+                "label_attr": [],
+                "compound": false,
+                "method": "POST",
+                "action": "",
+                "submitted": false,
+                "checked": false
+            }
+        },
+        "_token": {
+            "vars": {
+                "value": "jCqtWSCCmjO3CJ-202iZFE7XP3JM8EQmozdHL9uPSHo",
+                "attr": [],
+                "form": [],
+                "id": "formRegistration__token",
+                "name": "_token",
+                "full_name": "formRegistration[_token]",
+                "disabled": false,
+                "label": null,
+                "label_format": null,
+                "multipart": false,
+                "block_prefixes": [
+                    "form",
+                    "hidden",
+                    "_formRegistration__token"
+                ],
+                "unique_block_prefix": "_formRegistration__token",
+                "translation_domain": null,
+                "cache_key": "_formRegistration__token_hidden",
+                "errors": [],
+                "valid": true,
+                "data": "jCqtWSCCmjO3CJ-202iZFE7XP3JM8EQmozdHL9uPSHo",
+                "required": false,
+                "size": null,
+                "label_attr": [],
+                "compound": false,
+                "method": "POST",
+                "action": "",
+                "submitted": false
+            }
+        }
+    }
+}

@@ -22,9 +22,12 @@
     {% block localCSS %}{% endblock %}
 </head>
 <body>
-	{% block header %}{% endblock %}
-	{% block content %}{% endblock %}
-	{% block footer %}{% endblock %}
+	{% block left %}
+        {% block form %}{% endblock %}
+	    {% block about %}{% endblock %}
+	    {% block footer %}{% endblock %}
+    {% endblock %}
+	{% block right %}{% endblock %}
 	
 	<script type="text/javascript" src="{{ asset('js/vendors.js') }}"></script>
 	{% block localJS %}{% endblock %}
