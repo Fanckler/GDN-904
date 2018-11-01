@@ -1,0 +1,25 @@
+<header class="main-header">
+    <div class="container">
+        <div class="pull-left">
+            <a class="main-header__logo-link" href="{{ path('homepage') }}">
+                <img class="main-header__logo-img" src="{{ asset('images/logo.jpg') }}" alt="">
+            </a>
+        </div>
+        <div class="pull-right">
+            <div class="navbar">
+                <ul class="main-header__nav-list">
+                    <li class="main-header__nav-li">
+                        <a class="main-header__nav-link" href="{{ path('homepage') }}">{{ 'NAV_MENU_HOMEPAGE_TEXT'|trans }}</a>
+                    </li>
+                    <li class="main-header__nav-li">
+                        <a class="main-header__nav-link" href="{{ path('terms') }}">{{ 'NAV_MENU_TERMS_TEXT'|trans }}</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="main-header__action-buttons-wrap">
+                <button class="main-header__action-btn main-header__action-btn--login" type="button">{{ 'NAV_LOGIN_LINK_TEXT'|trans }}</button>
+                <button class="main-header__action-btn main-header__action-btn--join" type="button">{{ 'NAV_JOIN_LINK_TEXT'|trans }}</button>
+            </div>
+        </div>
+    </div>
+</header>

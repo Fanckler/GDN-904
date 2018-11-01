@@ -1,0 +1,46 @@
+<section class="index-heading__section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-5">
+                <form class="login-form mb-35" action="{{ path(main_login_form.action) }}" method="post">
+                    <div class="login-form__header">
+                        <h5 class="login-form__header-title">{{ 'MAIN_LOGIN_FORM.HEADER_TITLE'|trans }}</h5>
+                        <p class="login-form__header-text">{{ 'MAIN_LOGIN_FORM.HEADER_TEXT'|trans }}</p>
+                    </div>
+                    <div class="login-form__body">
+                        <div class="main-input__wrap mb-5">
+                            <span class="main-input__alert-message">{{ main_login_form.email.errors|join }}</span>
+                            {{ form_widget(main_login_form.email, {'attr':{'class':'main-input__text', 'placeholder':'MAIN_LOGIN_FORM.EMAIL_PLACEHOLDER'|trans} }) }}
+                        </div>
+                        <div class="main-input__wrap main-input__wrap--with-ico mb-5">
+                            <span class="main-input__alert-message">{{ main_login_form.password.errors|join }}</span>
+                            {{ form_widget(main_login_form.password, {'attr':{'class':'main-input__text', 'placeholder':'MAIN_LOGIN_FORM.PASSWORD_PLACEHOLDER'|trans} }) }}
+                        </div>
+                        <div class="main-input__wrap main-input__wrap--with-ico mb-5">
+                            <span class="main-input__alert-message">{{ main_login_form.remember.errors|join }}</span>
+                            {{ form_widget(main_login_form.remember) }}
+                            {{ form_label(main_login_form.remember, 'Remember Me') }}
+                        </div>
+                    </div>
+                    <div class="login-form__footer">
+                        <p class="login-form__main-text mb-20">
+                            {{ 'MAIN_LOGIN_FORM.BY_CLICKING_TEXT'|trans({
+                                '%link1_open%':'<a class="login-form__main-text-link" href="'~path('terms')~'">',
+                                '%link1_close%': '</a>'
+                                })
+                            }}
+                        </p>
+                        <button class="main-btn main-btn--orange mb-10" type="button">{{ 'MAIN_LOGIN_FORM.BTN_SUBMIT'|trans }}</button>
+                        <p class="login-form__main-text">{{ 'PRIMITIVES.OR'|trans }}</p>
+                        <button class="main-btn main-btn--facebook mb-10" type="button">{{ 'MAIN_LOGIN_FORM.LOGIN_FB'|trans({'%social%':'Facebook'}) }}</button>
+                        <p class="login-form__main-text mb-20"><i class="fa fa-info-circle login-form__info-text--icon"></i>{{ 'MAIN_LOGIN_FORM.NO_PUBLISH_INFO'|trans }}</p>
+                        <p class="login-form__have-account-text">
+                            {{ 'MAIN_LOGIN_FORM.HAVE_ACCOUNT'|trans }}
+                            <a class="login-form__have-account-text-link" href="#!">{{ 'PRIMITIVES.SIGN_IN'|trans }}</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

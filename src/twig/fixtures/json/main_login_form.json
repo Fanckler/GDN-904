@@ -1,0 +1,216 @@
+{
+    "vars": {
+        "value": null,
+        "attr": [],
+        "form": {
+            "email": [],
+            "password": [],
+            "remember": [],
+            "_token": []
+        },
+        "id": "form",
+        "name": "form",
+        "full_name": "form",
+        "disabled": false,
+        "label": null,
+        "label_format": null,
+        "multipart": false,
+        "block_prefixes": [
+            "form",
+            "_form"
+        ],
+        "unique_block_prefix": "_form",
+        "translation_domain": null,
+        "cache_key": "_form_form",
+        "errors": [],
+        "valid": true,
+        "data": null,
+        "required": true,
+        "size": null,
+        "label_attr": [],
+        "compound": true,
+        "method": "POST",
+        "action": "",
+        "submitted": false
+    },
+    "children": {
+        "email": {
+            "vars": {
+                "value": "",
+                "attr": {
+                    "placeholder": "Email"
+                },
+                "form": [],
+                "id": "form_email",
+                "name": "email",
+                "full_name": "form[email]",
+                "disabled": false,
+                "label": null,
+                "label_format": null,
+                "multipart": false,
+                "block_prefixes": [
+                    "form",
+                    "text",
+                    "email",
+                    "_form_email"
+                ],
+                "unique_block_prefix": "_form_email",
+                "translation_domain": null,
+                "cache_key": "_form_email_email",
+                "errors": [
+                    {
+                        "message": "Email error 1",
+                        "messageTemplate": "Email error 1",
+                        "messageParameters": [],
+                        "messagePluralization": null,
+                        "cause": null,
+                        "origin": []
+                    },
+                    {
+                        "message": "Email error 2",
+                        "messageTemplate": "Email error 2",
+                        "messageParameters": [],
+                        "messagePluralization": null,
+                        "cause": null,
+                        "origin": []
+                    }
+                ],
+                "valid": true,
+                "data": null,
+                "required": true,
+                "size": null,
+                "label_attr": [],
+                "compound": false,
+                "method": "POST",
+                "action": "",
+                "submitted": false
+            }
+        },
+        "password": {
+            "vars": {
+                "value": "",
+                "attr": {
+                    "placeholder": "Password"
+                },
+                "form": [],
+                "id": "form_password",
+                "name": "password",
+                "full_name": "form[password]",
+                "disabled": false,
+                "label": null,
+                "label_format": null,
+                "multipart": false,
+                "block_prefixes": [
+                    "form",
+                    "text",
+                    "password",
+                    "_form_password"
+                ],
+                "unique_block_prefix": "_form_password",
+                "translation_domain": null,
+                "cache_key": "_form_password_password",
+                "errors": [
+                    {
+                        "message": "Password error 1",
+                        "messageTemplate": "Password error 1",
+                        "messageParameters": [],
+                        "messagePluralization": null,
+                        "cause": null,
+                        "origin": []
+                    },
+                    {
+                        "message": "Password error 2",
+                        "messageTemplate": "Password error 2",
+                        "messageParameters": [],
+                        "messagePluralization": null,
+                        "cause": null,
+                        "origin": []
+                    }
+                ],
+                "valid": true,
+                "data": null,
+                "required": true,
+                "size": null,
+                "label_attr": [],
+                "compound": false,
+                "method": "POST",
+                "action": "",
+                "submitted": false
+            }
+        },
+        "remember": {
+            "vars": {
+                "value": "1",
+                "attr": [],
+                "form": [],
+                "id": "form_remember",
+                "name": "remember",
+                "full_name": "form[remember]",
+                "disabled": false,
+                "label": null,
+                "label_format": null,
+                "multipart": false,
+                "block_prefixes": [
+                    "form",
+                    "checkbox",
+                    "_form_remember"
+                ],
+                "unique_block_prefix": "_form_remember",
+                "translation_domain": null,
+                "cache_key": "_form_remember_checkbox",
+                "errors": [
+                    {
+                        "message": "Remember error 1",
+                        "messageTemplate": "Remember error 1",
+                        "messageParameters": [],
+                        "messagePluralization": null,
+                        "cause": null,
+                        "origin": []
+                    }
+                ],
+                "valid": true,
+                "data": false,
+                "required": true,
+                "size": null,
+                "label_attr": [],
+                "compound": false,
+                "method": "POST",
+                "action": "",
+                "submitted": false,
+                "checked": false
+            }
+        },
+        "_token": {
+            "vars": {
+                "value": "EdJyYgCaAFWtPG3ccSmYrmceZOHRuCgX1LQndtkVsCM",
+                "attr": [],
+                "form": [],
+                "id": "form__token",
+                "name": "_token",
+                "full_name": "form[_token]",
+                "disabled": false,
+                "label": null,
+                "label_format": null,
+                "multipart": false,
+                "block_prefixes": [
+                    "form",
+                    "hidden",
+                    "_form__token"
+                ],
+                "unique_block_prefix": "_form__token",
+                "translation_domain": null,
+                "cache_key": "_form__token_hidden",
+                "errors": [],
+                "valid": true,
+                "data": "EdJyYgCaAFWtPG3ccSmYrmceZOHRuCgX1LQndtkVsCM",
+                "required": false,
+                "size": null,
+                "label_attr": [],
+                "compound": false,
+                "method": "POST",
+                "action": "",
+                "submitted": false
+            }
+        }
+    }
+}

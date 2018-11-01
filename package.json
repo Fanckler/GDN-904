@@ -1,0 +1,27 @@
+{
+  "name": "template-skeleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode=development --display=minimal",
+    "build": "webpack --mode=production",
+    "watch": "webpack --mode=development --display=minimal -w",
+    "server:dev": "webpack-dev-server --inline --hot --mode=development",
+    "server:prod": "webpack-dev-server --inline --hot --mode=production --info false"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u001b[D"
+  },
+  "author": "Max M",
+  "license": "ISC",
+  "devDependencies": {
+    "@alldigitalads/nodejs_modules-twig-frontend": "^1.9.8",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "browserslist": [
+    "last 3 versions",
+    "iOS >= 4"
+  ]
+}

@@ -1,0 +1,26 @@
+{% extends './layout/main.html.twig' %}
+{% block localJS %}
+    <script type="text/javascript" src="{{ asset('js/index.js') }}"></script>
+{% endblock %}
+
+{% block localCSS %}
+    <link rel="stylesheet" href="{{ asset('css/index.scss') }}">
+{% endblock %}
+
+{% block header %}
+    {% include './blocks/main_header.html.twig' %}
+{% endblock %}
+
+{% block content %}
+    {% include './blocks/index-heading.html.twig' %}
+    <p>
+        <a href="{{ path('api_user_detail') }}" target="_blank">Show user detail</a>
+    </p>
+    {% if app.request.getLocale()|lower == 'en' %}
+        {%  include './contents/index-content_en.html.twig' %}
+    {% endif %}
+{% endblock %}
+
+{% block footer %}
+    {% include './blocks/footer.html.twig' %}
+{% endblock %}
